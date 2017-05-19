@@ -2,4 +2,5 @@
     <resources>
         <item name="helloWorldtextView" type="id"/>
         <item name="clickMeButton" type="id"/>
+        <item name="welcomeTextView" type="id"/>
     </resources>
