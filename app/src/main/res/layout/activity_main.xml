@@ -11,11 +11,24 @@
             android:layout_height="wrap_content"
             android:text="Hello World!"
             android:textColor="@android:color/white"
-            android:textSize="35sp"
+            android:textSize="20sp"
             android:background="@android:color/holo_purple"
             android:padding="8sp"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+            android:layout_alignParentStart="true"
+            android:id="@id/helloWorldtextView" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click me!"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:background="@android:color/black"
+            android:padding="8sp"
+            android:layout_alignParentLeft="true"
+            android:id="@id/clickMeButton"
+            android:layout_below="@id/helloWorldtextView" />
 
 </RelativeLayout>
